@@ -19,6 +19,7 @@
          font-family: 'Share Tech Mono', monospace;}
        
     p { color: black;
+        background-color: lightgrey;
         border: 1.5px dashed #282828 ;
         padding: 25px;
         font-family: "Courier New", Courier, monospace;
@@ -35,6 +36,7 @@
     width: 50%;}
     }
 /* all changes below made 2018/1/11 amd251 */
+/* added grey backgrounds to paragraphs */
 /* changed all of the fonts to courier new in place of the default*/
 /* also changed th paragraph margins to 75px instead of 50px */
 /* changed page background to a colored gradient instead of a solid color */
