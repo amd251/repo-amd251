@@ -1,12 +1,10 @@
 @page {margin: 75px}
-@media screen {
+@media screen{
     body {background: linear-gradient(to bottom, #FFEFE4 25%, #BB6056 75%);
           border: dotted black;
           margin: 25px;}
-    /* changed coloring of pages 11/6/18 amd251 */
-    /* changed margin and border size 11/11 */
-   /* added list styling 11/6/18 amd251 */
-   ul.a {
+          
+     ul.a {
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
@@ -22,22 +20,21 @@
        background-color: darksalmon;
        font-family: "Katibeh", cursive;
        font-size: 17px;}
-   
-   ul.b {
+       
+    ul.b {
        list-style-type: dots;
        color: black;
        font-size: 25px;
        font-family: "Katibeh", cursive; 
        margin-top:-50px;
        margin-left: 150px;}
-          
-   li.a {
+       
+    li.a {
        display: block;
        color: white;
        text-align: center;
        padding: 7px 11px;
-       text-decoration: none;}
-       /* nav bar */
+       text-decoration: none;}   
        
    li.b {
        text-align:justify;
@@ -52,8 +49,6 @@
         margin-right: 100px;
         margin-top: -25px;
         margin-bottom: -25px;}
-        /* added styling to the horizontal ruler (11/6/18, amd251) */
-    
     h1 {
         display: flex;
         flex-wrap: wrap;
@@ -66,21 +61,17 @@
         font-size: 50px;
         text-align:center;
         font-family: 'Bungee Shade', cursive;}
-        /* changed font 11/6/18 amd251 */
-        /* changed heading bg 11/11 */
-       
+
     h2 { color: darkred;
         font-size: 45px;
         text-align:center;
         font-family: 'Sacramento', cursive;}
-        /* changed font 11/6/18 amd251 */
-        
+
     h3 { color: darkred;
          font-size: 45px;
          text-align:center;
          font-family: 'Sacramento', cursive;}
-         /* changed font 11/6/18 amd251 */
-       
+         
     p { color: black;
         font-size: 25px;
         padding: 15px;
@@ -91,10 +82,8 @@
         margin-right: 75px;
         margin-bottom: 30px;
         margin-left: 75px;}
-        /* changed font 11/6/18 amd251 */
-        /* changed formatting 11/7/18 amd251 */
-        
-    img.a{
+
+   img.a{
         margin-left: auto;
         margin-right: auto;
         width: 65%;}
@@ -111,12 +100,4 @@
         justify-content: space-around;
         align-items: center;
         }
-    
-    
-/* all changes below made 2018/1/11 amd251 */
-/* added grey backgrounds to paragraphs */
-/* changed all of the fonts to courier new in place of the default*/
-/* also changed th paragraph margins to 75px instead of 50px */
-/* changed page background to a colored gradient instead of a solid color */
-/* changed heading sizes from standard, to fixed */
-/* changed heading fonts again, to ones found on google fonts, but kept courier new for parapgraph font */
+     

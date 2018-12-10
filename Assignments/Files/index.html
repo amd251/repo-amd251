@@ -4,7 +4,7 @@
         <title> Index </title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" type="text/css" href="new.css" />
         <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Katibeh|Sacramento|Sail|Spirax" rel="stylesheet"/>
         <!-- changed fonts 11/6/18 amd251 -->
     </head>
@@ -53,8 +53,15 @@
             and they've unofficially become a focus of my major.
             I also really enjoy signing. I'm actually a memember of my campus choir as an alto.
         </p>
+        
         <div class="image-container">
-             <img class="a" src="Pictures/stars.gif" alt="stars"/>
-        </div>
+            <img id="stars" class="a" src="Pictures/stars.gif" alt="stars"/> 
+        </div>  
+        <button class="button" onclick="document.getElementById('stars').src='Pictures/moon.gif'">CLICK HERE FOR A SURPRISE!</button>  
+        <br/>
+        <p class="i">This document was last modified <span id="demo"></span>.</p>
+        <script>
+            document.getElementById("demo").innerHTML = document.lastModified;
+       </script>
     </body>
 </html>
